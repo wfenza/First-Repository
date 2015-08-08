@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Hello | Example Code 3</title>
+	<meta name="description" content="I'm Amber and I'm a Web Developer in the Philadelphia area.">
+	<meta name="author" content="Amber Dillenbeck">
+	<link rel='stylesheet' href='bootstrap.min.css' />
+    <link rel='stylesheet' href='BSstyle3.css' />
+  </head>
+  
+  <body>
+  <div class="navbar-wrapper">
+  <div class="container">
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="navbar-header">
+	    <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	      <span class="icon-bar"></span>
+	    </a>
+        <a class="navbar-brand" href="#">KOMOREBI</a>
+        </div><!--navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#"">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--navbar-collapse -->
+    </div><!--navbar -->
+  </div><!--container -->
+</div><!--navbar wrapper -->
+
+<div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="BS3images/carouselsnowymt.jpg" style="width:100%" class="img-responsive"> <!-- Photo taken from wikipedia commons-->
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Sample Bootstrap Site!</h1>
+          <p>Nearly everything is written in Lorem Ipsum.</p>
+          <p><a class="btn btn-primary" href="#">Welcome</a>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://static.pexels.com/photos/1029/landscape-mountains-nature-clouds.jpg" style="width:100%" class="img-responsive"> <!-- Photo taken from pexels.com-->
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Chros Posuere Lectus</h1>
+          <p>Suspendisse at massa urna. Donec ut consectetur leo. Nulla ac mattis diam, quis vehicula velit. </p>
+          <p><a class="btn btn-primary" href="#">Learn more</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://static.pexels.com/photos/4019/landscape-mountains-nature-rocks.jpeg" style="width:100%" class="img-responsive"> <!-- Photo taken from pexels.com-->
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Praesent-Torttitor lectus</h1>
+          <p>Duis eu "porttitor lacus" vitae auctor neque.</p>
+          <p><a class="btn btn-primary" href="#">Browse gallery</a></p>
+        </div>
+      </div>
+    </div>
+  </div><!--inner carousel -->
+ 
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+  </a>  
+</div>
+
+<div class="container sm-circle">
+  <div class="row">
+    <div class="col-md-3 text-center">
+      <img class="img-circle" src="BS3images/circlebadlands.jpg"> <!-- Photo taken from wikipedia commons-->
+      <h2>Sed Vitae</h2>
+      <p>Cras posuere lectus ac orci consequat accumsan.</p>
+      <p><a class="btn btn-default" href="#">Neque porro »</a></p>
+    </div>
+    <div class="col-md-3 text-center">
+      <img class="img-circle" src="BS3images/circleag.jpg">
+      <h2>Nec Tincidunt</h2>
+      <p>Duis lectus libero, finibus in mauris vitae.</p>
+      <p><a class="btn btn-default" href="#">Neque porro »</a></p>
+    </div>
+    <div class="col-md-3 text-center">
+      <img class="img-circle" src="BS3images/circlegrass.jpg">
+      <h2>Cras Turpis</h2>
+      <p>Lacinia orci id, commodo felis. Sed eu varius erat.</p>
+      <p><a class="btn btn-default" href="#">Neque porro »</a></p>
+    </div>
+	<div class="col-md-3 text-center">
+      <img class="img-circle" src="BS3images/circlesnow.jpg">
+      <h2>Cras Nulla Elit</h2>
+      <p>Lacinia orci id, commodo felis. Sed eu varius erat.</p>
+      <p><a class="btn btn-default" href="#">Neque porro »</a></p>
+    </div>
+  </div><!--row -->
+
+
+  <hr class="featurette-divider">
+
+  <div class="featurette shade">
+    <img class="featurette-image pull-right" src="BS3images/squaredesert.jpg">
+    <h2 class="featurette-heading">Suspendisse at massa urna. <span class="text-muted">Donec ut consectetur leo.</span></h2>
+    <p class="lead">Proin magna leo, maximus a egestas quis, molestie sit amet risus. Nunc in sollicitudin lacus, rhoncus finibus leo. Vivamus semper consequat lorem non aliquam. Pellentesque est mi, condimentum nec venenatis dignissim.</p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="featurette shade">
+    <img class="featurette-image pull-left" src="BS3images/squarewaterfall.jpg">
+    <h2 class="featurette-heading">Sed eu varius erat. <span class="text-muted">Sollicitudin.</span></h2>
+    <p class="lead">Cras imperdiet congue enim ut commodo. Suspendisse suscipit ipsum at feugiat tincidunt. Pellentesque ac varius purus, vel vulputate libero. Vivamus sollicitudin interdum lacus a facilisis.</p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="featurette shade">
+    <img class="featurette-image pull-right" src="BS3images/squareredwoods.jpg">
+    <h2 class="featurette-heading">Pellentesque efficitur, risus. <span class="text-muted">Suspendisse.</span></h2>
+    <p class="lead">Aliquam nec erat augue. Mauris dapibus magna tortor, vel porttitor metus euismod a. Nunc ipsum justo, luctus tempus est sed, aliquet sodales orci. </p>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p class="pull-left">Thanks for visiting!</p>
+  </footer>
+
+</div><!-- container -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+  </body>
+</html>
